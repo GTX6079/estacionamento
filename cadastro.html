@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Cadastro de Usuário</h2>
+        <form id="user-form">
+            <label for="username">Nome de usuário:</label>
+            <input type="text" id="username" required>
+            
+            <label for="password">Senha:</label>
+            <input type="password" id="password" required>
+            
+            <button type="submit" onclick="cadastrarUser()">Cadastrar</button>
+        </form>
+        <script src="cadastro.js"></script>
+</body>
+</html>
